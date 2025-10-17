@@ -1,0 +1,17 @@
+﻿{
+    "name": "OVHL_NextGen",
+    "tree": {
+        "": "DataModel",
+        "ReplicatedStorage": {
+            "": "src/shared"
+        },
+        "ServerScriptService": {
+            "": "src/server"
+        },
+        "StarterPlayer": {
+            "StarterPlayerScripts": {
+                "": "src/client"
+            }
+        }
+    }
+}

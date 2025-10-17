@@ -1,0 +1,15 @@
+﻿{
+    "editor.formatOnSave": true,
+    "[lua]": {
+        "editor.defaultFormatter": "JohnnyMorganz.stylua"
+    },
+    "selene.enable": true,
+    "selene.diagnostics.enable": true,
+    "robloxLsp.enabled": true,
+    "robloxLsp.completionMode": "Game",
+    "robloxLsp.hoverDocumentation": true,
+    "robloxLsp.diagnostics.enable": true,
+    "files.autoSave": "onWindowChange",
+    "gitlens.currentLine.enabled": true,
+    "todo-tree.general.tags": ["TODO", "FIXME", "NOTE", "HACK"]
+}

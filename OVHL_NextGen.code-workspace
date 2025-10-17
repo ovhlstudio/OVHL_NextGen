@@ -1,0 +1,26 @@
+﻿{
+    "folders": [
+        { "path": "." }
+    ],
+    "settings": {
+        "editor.formatOnSave": true,
+        "[lua]": {
+            "editor.defaultFormatter": "JohnnyMorganz.stylua"
+        },
+        "selene.enable": true,
+        "selene.diagnostics.enable": true,
+        "robloxLsp.enabled": true
+    },
+    "extensions": {
+        "recommendations": [
+            "JohnnyMorganz.stylua",
+            "kampfkarren.selene-vscode",
+            "Nightrains.robloxlua",
+            "eamodio.gitlens",
+            "Gruntfuggly.todo-tree",
+            "actboy168.lua-debug",
+            "christian-kohler.path-intellisense",
+            "EditorConfig.EditorConfig"
+        ]
+    }
+}
