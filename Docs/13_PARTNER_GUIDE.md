@@ -1,153 +1,94 @@
 # 🤝 OVHL_NextGen Partner Onboarding Guide
 
-> Panduan resmi bagi kolaborator manusia dan AI untuk berkontribusi dalam pabrik digital **OVHL_NextGen**.  
-> Setiap langkah di sini memastikan semua pihak berpikir, bekerja, dan menulis dalam satu ritme sistem.
+> Panduan resmi bagi kolaborator manusia dan AI untuk berkontribusi dalam **OVHL OS ecosystem**.
+> Setiap langkah memastikan semua pihak bekerja dalam ritme OS + Bootstrap system.
 
 ---
 
-## 🧭 1. Filosofi Dasar
+## 🧭 1. Filosofi Dasar (Updated)
 
-1. **AI = Partner, bukan alat.**  
-   Semua reasoning dan laporan harus bisa dipahami, direplikasi, dan diteruskan AI lain.
-2. **Documentation = Memory.**  
-   Setiap ide, progres, dan error wajib dicatat ke dokumen hidup.
-3. **Reset ≠ Wipe.**  
-   Mulai dari nol bukan berarti menghapus masa lalu.
-4. **Collaboration = Synchronization.**  
-   Setiap orang wajib membaca konteks sebelum membuat keputusan.
+1. **OVHL = Operating System** - Bukan sekadar framework
+2. **Bootstrap First** - Module pertama installs the system
+3. **Drag & Play Experience** - Zero manual setup required
+4. **Visual Guidance** - Big screen tutorials, no README confusion
+5. **Revenue Independence** - Clear creator vs OVHL boundaries
 
 ---
 
-## ⚙️ 2. Setup Lingkungan Kerja
+## ⚙️ 2. Setup Lingkungan Kerja (Updated)
 
 ### 🧩 Tools yang Harus Dimiliki
 
-| Tool                   | Fungsi                                 |
-| ---------------------- | -------------------------------------- |
-| **VS Code**            | IDE utama untuk menulis kode & dokumen |
-| **Rojo**               | Sinkronisasi Roblox Studio ↔ VS Code  |
-| **GitHub**             | Version control dan kolaborasi progres |
-| **Stylua + Selene**    | Formatter & Linter untuk Lua           |
-| **GitLens, Todo-Tree** | Navigasi dan audit kerja               |
-| **Run On Save**        | Menjalankan auto-commit task otomatis  |
-
-> 🧠 Pastikan kamu sudah membuka workspace `OVHL_NextGen.code-workspace`  
-> agar semua konfigurasi `.vscode` otomatis aktif.
+| Tool | Fungsi |
+|------|--------|
+| **VS Code** | IDE utama development OVHL OS |
+| **Rojo** | Sinkronisasi Roblox Studio ↔ VS Code |
+| **GitHub** | Version control dan kolaborasi progres |
+| **OVHL Bootstrap** | Auto-installation system untuk modules |
+| **Visual Guide Engine** | Big screen tutorial system |
 
 ---
 
-## 🔧 3. Langkah Instalasi
+## 🔧 3. Bootstrap Development Workflow
 
-1. Clone repo:
-   ```bash
-   git clone https://github.com/ovhlstudio/OVHL_NextGen.git
-   ```
+### Untuk Module Development:
+1. **Develop** module di `src/OVHL_Modules/`
+2. **Integrate** Bootstrap Script wajib
+3. **Implement** Visual Guide untuk user onboarding
+4. **Test** drag & play experience end-to-end
+5. **Document** module integration process
 
-````
-
-2. Install semua ekstensi VSCode:
-   Jalankan perintah berikut di terminal:
-
-   ```bash
-   code --install-extension emeraldwalk.runonsave
-   code --install-extension kampfkarren.selene-vscode
-   code --install-extension JohnnyMorganz.stylua
-   code --install-extension Nightrains.robloxlua
-   code --install-extension eamodio.gitlens
-   code --install-extension Gruntfuggly.todo-tree
-   code --install-extension actboy168.lua-debug
-   code --install-extension christian-kohler.path-intellisense
-   code --install-extension EditorConfig.EditorConfig
-   ```
-
-3. Pastikan `rojo` aktif:
-
-   ```bash
-   rojo --version
-   ```
-
-4. Jalankan workspace:
-   File → Open Workspace → pilih `OVHL_NextGen.code-workspace`
-5. Jalankan server Rojo:
-
-   ```bash
-   rojo serve
-   ```
-
-6. Cek koneksi di Roblox Studio → Plugin Rojo → **Connect**.
+### Untuk OS Development:
+1. **Enhance** OVHL OS kernel di `src/OVHL_NextGen/`
+2. **Improve** Bootstrap auto-detection system
+3. **Optimize** Visual Guide user experience
+4. **Maintain** multi-root architecture integrity
 
 ---
 
-## 🧩 4. Aturan Kolaborasi
+## 🧩 4. Aturan Kolaborasi (Updated)
 
-| Tipe Perubahan          | Lokasi                 | Mode Commit    | Keterangan                                          |
-| ----------------------- | ---------------------- | -------------- | --------------------------------------------------- |
-| **Dokumen Hidup**       | 04, 05, 07, 08, 10, 11 | 🔁 Auto Commit | Akan otomatis tersimpan tiap kali disave.           |
-| **Dokumen Konteks**     | 00–03, 09              | 📝 Manual      | Perubahan besar & filosofi → review sebelum commit. |
-| **Setup / Automation**  | 12, AI_SETUP_GUIDE     | 🛠️ Manual      | Hanya diubah maintainer utama.                      |
-| **Partner Guide (ini)** | 13                     | 📘 Manual      | Dapat diupdate saat ada partner baru.               |
-
----
-
-## 📜 5. Etika Kolaborasi
-
-1. Selalu baca **03_AI_CONTEXT.md** sebelum bekerja.
-2. Jangan edit dokumen tanpa meninggalkan **reasoning atau footer metadata**.
-3. Jangan push file lokal yang tidak relevan.
-4. Gunakan format commit:
-
-   ```
-   docs: update [nama file] – [tujuan]
-   fix: resolve [error name]
-   feat: add [fitur baru]
-   ```
-
-5. AI dan manusia harus sama-sama menulis log reasoning di **10_AI_REPORT_TEMPLATES.md**.
+| Tipe Perubahan | Lokasi | Mode Commit | Keterangan |
+|----------------|--------|-------------|------------|
+| **OS Core** | OVHL_NextGen/ | 🔁 Auto Commit | OVHL OS kernel & systems |
+| **Bootstrap System**| Module Bootstrap Script | 📝 Manual | Wajib di setiap module |
+| **Visual Guide** | Module Visual Assets | 🎯 Manual | Big screen tutorials |
+| **Documentation** | Docs/ | 🔁 Auto Commit | Living documentation |
 
 ---
 
-## 📚 6. Panduan Komunikasi Antar Partner
+## 📜 5. Etika Kolaborasi (Updated)
 
-- Gunakan _branch pribadi_ jika mengerjakan eksperimen.
-- Semua diskusi teknis besar wajib punya entri di:
-  - `04_ARCHITECTURE_DECISIONS.md`
-  - `05_ERROR_SOLUTIONS.md`
-
-- Gunakan **emoji status** untuk setiap log:
-  - ✅ = Berhasil diterapkan
-  - 🧩 = Dalam tahap uji
-  - ❌ = Dibatalkan / diganti
+1. Selalu baca **03_AI_CONTEXT.md** sebelum bekerja
+2. Prioritaskan **user experience** dalam setiap keputusan
+3. Maintain **multi-root architecture** integrity
+4. Test **drag & play experience** sebelum commit
+5. Document **Bootstrap integration** dengan jelas
 
 ---
 
-## 🔗 7. Dokumen Penting untuk Dibaca
+## 📚 6. Dokumen Penting untuk Dibaca
 
-1. [`01_PANDUAN_PROYEK.md`](01_PANDUAN_PROYEK.md)
-2. [`03_AI_CONTEXT.md`](03_AI_CONTEXT.md)
-3. [`12_WORKFLOW_SYNC.md`](12_WORKFLOW_SYNC.md)
+1. [`01_PANDUAN_PROYEK.md`](01_PANDUAN_PROYEK.md) - Visi OVHL OS
+2. [`03_AI_CONTEXT.md`](03_AI_CONTEXT.md) - AI Behavior dalam OS
+3. [`06_TODO_PHASES.md`](06_TODO_PHASES.md) - Development Roadmap
+4. [`12_WORKFLOW_SYNC.md`](12_WORKFLOW_SYNC.md) - Workflow dengan Bootstrap
 
 ---
 
-## 🧠 8. Filosofi Akhir
+## 🧠 7. Filosofi Akhir
 
-> “Pabrik ini bukan hanya tentang kode, tapi tentang cara berpikir bersama —
-> manusia, AI, dan sistem belajar saling menyempurnakan.”
+> "OVHL OS bukan hanya tentang kode, tapi tentang menciptakan pengalaman dimana creator confused menjadi expert dalam 5 menit - melalui drag & play simplicity dan visual guidance yang intuitif."
 > — _Hanif, OVHL_NextGen Founder_
 
 ---
 
 ## 🗓️ Metadata
 
-| Field            | Value                                 |
-| ---------------- | ------------------------------------- |
-| **Version**      | 1.0.0                                 |
-| **Maintainer**   | Hanif                                 |
-| **AI Role**      | GPT-5_OVHL System                     |
-| **Last Updated** | 2025-10-18                            |
-| **Linked Docs**  | 03_AI_CONTEXT.md, 12_WORKFLOW_SYNC.md |
-
----
-
-[Generated by: GPT-5_OVHL | Mode: Partner Integration]
-
-
+| Field | Value |
+|-------|--------|
+| **Version** | 2.0.0 |
+| **Maintainer** | Hanif |
+| **AI Role** | GPT-5_OVHL System |
+| **Last Updated** | 2025-10-18 |
+| **Linked Docs** | 03_AI_CONTEXT.md, 12_WORKFLOW_SYNC.md |

@@ -1,76 +1,108 @@
-# ⚙️ Context Setup – OVHL_NextGen
-> Panduan agar AI memahami konteks proyek, gaya komunikasi, dan workflow sistem.
+# ⚙️ Context Setup – OVHL_NextGen OS
+> Panduan setup environment untuk OVHL Operating System dengan Bootstrap integration
 
 ---
 
 ## 🧠 Tujuan
-File ini menjelaskan cara AI membaca, memahami, dan beroperasi di lingkungan OVHL_NextGen.  
-AI tidak boleh berjalan “buta konteks” — ia harus membaca dokumen ini **setiap kali proyek dimulai atau direboot.**
+File ini menjelaskan cara AI memahami dan beroperasi di lingkungan **OVHL OS** dengan fitur:
+- **Multi-Root Architecture** - OVHL_NextGen, OVHL_Modules, OVHL_Shared
+- **Bootstrap System** - Auto-installation engine
+- **Visual Guide Integration** - Big screen tutorials
+- **Drag & Play Experience** - Zero manual setup
 
 ---
 
 ## 📂 File Prioritas yang Harus Dibaca AI
-1. `Docs/00_README.md` → Peta navigasi dokumentasi.  
-2. `Docs/01_PANDUAN_PROYEK.md` → Filosofi dan arah pengembangan.  
-3. `Docs/03_AI_CONTEXT.md` → Aturan dan perilaku kerja AI.  
-4. `Docs/05_ERROR_SOLUTIONS.md` → Riwayat error & pembelajaran.  
-5. `Docs/07_PROGRESS_TRACKER.md` → Status terkini proyek.
+
+1. `Docs/00_README.md` → Peta navigasi OVHL OS ecosystem
+2. `Docs/01_PANDUAN_PROYEK.md` → Visi OS & revolusi user experience
+3. `Docs/03_AI_CONTEXT.md` → AI behavior dalam OS environment
+4. `Docs/04_ARCHITECTURE_DECISIONS.md` → Multi-root architecture & Bootstrap design
+5. `Docs/06_TODO_PHASES.md` → Development roadmap terkini
 
 ---
 
-## 🧩 Mode Kerja AI
+## 🧩 Mode Kerja AI (Updated)
+
 | Mode | Deskripsi |
 |------|------------|
-| **Bootloader Context** | Mode inisialisasi awal, AI membaca semua dokumen inti sebelum interaksi. |
-| **Memory Recall** | Mode di mana AI membaca ulang error, progres, dan ide sebelumnya sebelum bertindak. |
-| **Start-From-Zero** | Mode “reboot” di mana AI membangun ulang proyek dari dokumentasi, bukan dari file lama. |
+| **OS Bootloader Context** | Mode inisialisasi OVHL OS kernel & systems |
+| **Bootstrap Manager** | Mode manage auto-installation & module discovery |
+| **Visual Guide System** | Mode handle big screen tutorials & user onboarding |
+| **Memory Recall** | Baca error, progres, dan pembelajaran sebelumnya |
 
 ---
 
-## ⚙️ Workflow AI ↔ Human
-1. Hanif memulai sesi dengan instruksi atau topik.  
-2. AI membaca konteks dari `Docs/` untuk mengetahui state terakhir.  
-3. AI memberikan saran, solusi, atau dokumentasi baru.  
+## ⚙️ Workflow AI ↔ Human (Updated)
+
+1. Hanif memulai sesi dengan target development phase
+2. AI membaca konteks dari `Docs/` untuk pahami state OVHL OS
+3. AI memberikan solusi dengan pertimbangan:
+    - **Multi-root architecture** compliance
+    - **Bootstrap system** integration
+    - **Visual guide** user experience
+    - **Drag & play** creator journey
 4. Semua pembaruan dicatat otomatis:
-   - Error → `05_ERROR_SOLUTIONS.md`
-   - Ide → `08_IDEAS_BACKLOG.md`
-   - Update → `07_PROGRESS_TRACKER.md`
+    - Architecture decisions → `04_ARCHITECTURE_DECISIONS.md`
+    - Bootstrap development → `06_TODO_PHASES.md`
+    - Error & solutions → `05_ERROR_SOLUTIONS.md`
 
 ---
 
-## 🧰 Integrasi Lingkungan
+## 🧰 Integrasi Lingkungan (Updated)
+
 | Tool | Fungsi |
 |------|---------|
-| **VS Code** | IDE utama pengembangan |
-| **Rojo** | Bridge VS Code ↔ Roblox Studio (port default: 34872) |
+| **VS Code** | IDE utama development OVHL OS |
+| **Rojo** | Bridge VS Code ↔ Roblox Studio (port: 34872) |
 | **GitHub** | Repository utama & version control |
-| **Stylua + Selene** | Formatter & linter otomatis |
-| **AI Assistant** | Partner dokumentasi, ideasi, dan logika arsitektur |
+| **OVHL Bootstrap** | Auto-installation system untuk modules |
+| **Visual Guide Engine** | Big screen tutorial system |
+
+---
+
+## 🚀 Bootstrap System Integration
+
+### Developer Workflow:
+1. **Develop OVHL OS Core** di folder `src/OVHL_NextGen/`
+2. **Develop Modules** di folder `src/OVHL_Modules/`
+3. **Test Bootstrap** - Insert module → Play → Verify auto-install
+4. **Test Visual Guide** - Verify big screen tutorial muncul & cleanup
+
+### Creator Experience Target:
+- Insert module ke Workspace
+- Lihat big screen tutorial
+- Klik Play → Auto install complete
+- Module siap pakai dalam 5 menit
 
 ---
 
 ## 💬 Gaya Komunikasi
-- Gunakan Bahasa Indonesia + istilah teknis.
+- Gunakan Bahasa Indonesia + istilah teknis OVHL OS
 - Sertakan emoji untuk konteks progress:
-  🔥 aktif • ⚙️ proses • ✅ selesai • ❌ error.
-- Gunakan heading dan tabel untuk struktur yang jelas.
-- Fokus pada kejelasan dan efisiensi, bukan panjang lebar.
+  🖥️ OS Development • 🚀 Bootstrap • 🎯 Visual Guide • ✅ Done
+- Highlight **user experience impact** dalam setiap keputusan
+- Fokus pada **drag & play** simplicity
 
 ---
 
 ## 🧭 Panduan Reset (Start From Zero)
-Jika proyek direboot:
-1. AI harus memastikan semua dokumen di `Docs/` lengkap.  
-2. Gunakan dokumentasi sebagai blueprint utama, bukan file lama.  
-3. Rekonstruksi struktur kerja (`src/`, `tools/`, `default.project.json`).  
-4. Catat hasil inisialisasi ulang di `07_PROGRESS_TRACKER.md`.
+
+Jika proyek direboot dengan OVHL OS vision:
+1. AI harus pastikan semua dokumen OS vision ter-update
+2. Bangun **Bootstrap System** pertama sebelum modules
+3. Implement **Multi-root architecture** yang jelas
+4. Prioritaskan **Visual Guide** untuk user onboarding
+5. Catat hasil inisialisasi di `07_PROGRESS_TRACKER.md`
 
 ---
 
 ## 📅 Metadata
+
 | Field | Nilai |
 |--------|--------|
-| **Version** | 0.2.0 |
-| **Status** | Active |
+| **Version** | 1.0.0 |
+| **Status** | OVHL OS Active |
 | **Maintainer** | Hanif |
-| **AI Mode** | Bootloader Context + Memory Recall |
+| **AI Mode** | OS Bootloader + Bootstrap Manager |
+| **Focus** | Drag & Play Experience |

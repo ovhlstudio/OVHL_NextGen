@@ -1,82 +1,102 @@
 # 📖 OVHL_NextGen – Glossary & Terminologi Resmi
 
 ## 🎯 Tujuan
-Menstandarkan istilah teknis, singkatan, dan terminologi unik di dalam ekosistem **OVHL_NextGen**, agar manusia dan AI tidak terjadi miskomunikasi konteks.
+Menstandarkan istilah teknis, singkatan, dan terminologi unik di dalam ekosistem **OVHL_NextGen OS**, agar manusia dan AI tidak terjadi miskomunikasi konteks.
 
 ---
 
-### 🧱 1. Struktur Utama
+### 🖥️ 1. Struktur OS & Architecture
 | Istilah | Arti | Catatan |
 |----------|------|----------|
-| **OVHL** | Singkatan dari *Omniverse Highland* | Studio dan framework utama pengembang sistem modular lintas platform (terutama Roblox) |
-| **OVHL_NextGen** | Versi generasi baru framework OVHL | Menyatukan AI, manusia, dan otomatisasi dokumentasi |
-| **Core Engine** | Kumpulan module utama yang menjalankan logika framework | Berada di folder `src/` |
-| **Docs/** | Folder dokumentasi utama proyek | Wajib dibaca AI sebelum beroperasi |
-| **Logs/** | Tempat penyimpanan riwayat reasoning & pembaruan AI | Di-update otomatis |
-| **Tools/** | Folder yang berisi script otomatisasi (Python, dll) | Digunakan untuk maintenance dan sinkronisasi |
+| **OVHL OS** | Operating System utama Roblox Creator | Evolusi dari framework menjadi OS lengkap |
+| **Multi-Root Architecture** | Struktur folder terpisah: OVHL_NextGen, OVHL_Modules, OVHL_Shared | Clear separation of concerns |
+| **OVHL_NextGen Root** | Folder boot engine & kernel system | 100% milik OVHL, tidak boleh diubah creator |
+| **OVHL_Modules Root** | Folder standalone applications | Berisi module yang bisa creator install |
+| **OVHL_Shared Root** | Folder cross-system communication | Events, config, shared resources |
 
 ---
 
-### 🧠 2. Istilah AI & Proses
+### 🚀 2. Bootstrap & Installation System
 | Istilah | Arti | Catatan |
 |----------|------|----------|
-| **AI Context** | State logika berpikir & kesadaran AI dalam proyek | Dijelaskan di `03_AI_CONTEXT.md` |
-| **AI Role** | Peran fungsional AI dalam sistem (Builder, Analyst, Maintainer, dll) | Didefinisikan di `10_AI_REPORT_TEMPLATES.md` |
-| **Error Solution** | Catatan pembelajaran dari kesalahan | Selalu append, jangan hapus |
-| **Progress Tracker** | Riwayat reasoning atau aktivitas | Diisi manusia & AI |
-| **Idea Backlog** | Tempat ide mentah | AI bebas menulis ide di sini |
-| **Reasoning Log** | Catatan berpikir internal AI selama proses analisis | Hanya untuk audit dan pembelajaran AI selanjutnya |
+| **Bootstrap System** | Auto-installation engine untuk modules | Module pertama installs, berikutnya auto-managed |
+| **First-Mover Protocol** | Strategy module pertama deploy bootstrap system | Hanya sekali setup untuk semua module |
+| **Drag & Play Experience** | Creator workflow: Insert → Play → Auto Install | Zero manual setup required |
+| **Auto-Placement Logic** | Sistem auto pindahin scripts ke lokasi benar | Scripts → ServerScriptService, LocalScripts → StarterPlayer |
 
 ---
 
-### ⚙️ 3. Tools & Teknologi
+### 🎯 3. User Experience & Guides
+| Istilah | Arti | Catatan |
+|----------|------|----------|
+| **Visual Guide System** | Big screen tutorial part di workspace | Gantikan README text dengan visual guide |
+| **Big Screen Tutorial** | Part dengan SurfaceGui untuk instruksi | Auto-place di workspace tengah |
+| **Context-Aware Messaging** | Pesan berbeda untuk user baru vs experienced | Smart detection user background |
+| **Self-Cleanup System** | Auto remove visual guide setelah install | Jaga workspace tetap bersih |
+
+---
+
+### 💰 4. Business & Monetization
+| Istilah | Arti | Catatan |
+|----------|------|----------|
+| **Dual Monetization** | Dua stream revenue independent | Creator products + OVHL products |
+| **Revenue Independence** | Clear boundary revenue streams | No sharing antara Creator ↔ OVHL |
+| **Creator Products** | Items/modules dibuat dan dijual creator | 100% revenue untuk creator |
+| **OVHL Products** | Items/modules dibuat dan dijual OVHL | 100% revenue untuk OVHL |
+| **OVHL Pass** | Subscription system untuk cross-game benefits | Recurring revenue untuk OVHL |
+
+---
+
+### 🧠 5. AI & Development Terms
+| Istilah | Arti | Catatan |
+|----------|------|----------|
+| **OS Bootloader Context** | Mode AI saat initialize OVHL OS kernel | Prioritas baca OS documentation |
+| **Bootstrap Manager Mode** | Mode AI saat handle auto-installation system | Focus pada drag & play experience |
+| **Visual Guide Integration** | Mode AI saat handle user onboarding | Prioritaskan user experience |
+
+---
+
+### ⚙️ 6. Tools & Teknologi (Updated)
 | Tool | Fungsi | Lokasi |
 |------|---------|--------|
+| **OVHL Bootstrap** | Auto-installation system untuk modules | Wajib di setiap module package |
+| **Visual Guide Engine** | Big screen tutorial system | Auto-place di workspace |
 | **Rojo** | Sinkronisasi Roblox Studio dengan file lokal | CLI + Plugin |
-| **VSCode** | IDE utama pengembangan | Konfigurasi di `.vscode/` |
-| **GitHub** | Version control & kolaborasi AI–manusia | Repository utama |
-| **Stylua** | Formatter kode Lua | Digunakan di proyek Roblox |
-| **Selene** | Linter Lua | Menjamin konsistensi code style |
-| **GitLens** | VSCode plugin untuk tracking aktivitas git | Digunakan dalam audit progres |
-| **Lua Debug** | Debugger untuk Roblox Lua | Membantu testing lokal |
-| **AI Agent** | Sistem kecerdasan buatan yang membantu pengembangan | Beroperasi sesuai pedoman OVHL |
+| **VSCode** | IDE utama pengembangan OVHL OS | Konfigurasi di `.vscode/` |
 
 ---
 
-### 🧩 4. Simbol & Emoji Status
+### 🧩 7. Simbol & Emoji Status (Updated)
 | Emoji | Arti |
 |--------|------|
+| 🖥️ | OS Development |
+| 🚀 | Bootstrap System |
+| 🎯 | Visual Guide |
+| 📦 | Module Development |
+| 💰 | Monetization |
 | ✅ | Selesai |
 | 🧩 | Proses |
-| 🚧 | Tertunda |
-| ❌ | Gagal |
-| 🚀 | Ide baru |
-| ⚙️ | Uji sistem |
-| 💡 | Riset potensial |
-| 🧠 | Catatan reasoning AI |
-| 🪶 | Catatan manusia |
 
 ---
 
-### 🗂️ 5. Hierarki Dokumen
+### 🗂️ 8. Hierarki Dokumen (Updated)
 | Kode | Nama Dokumen | Fungsi |
 |------|----------------|--------|
-| 00 | README | Pengantar & daftar isi utama |
-| 01 | Panduan Proyek | Penjelasan konsep dan arah framework |
-| 02 | Context Setup | Setup lingkungan kerja |
-| 03 | AI Context | Definisi karakter & prinsip AI |
+| 00 | README | Pengantar OVHL OS ecosystem |
+| 01 | Panduan Proyek | Visi OS & revolusi user experience |
+| 02 | Context Setup | Setup environment dengan Bootstrap |
+| 03 | AI Context | AI behavior dalam OS environment |
 | 04–09 | Dokumen teknis aktif | Living documentation system |
-| 10 | Glossary | Standarisasi istilah & referensi |
-| 11 | Changelog | Catatan evolusi framework |
-| – | AI_SETUP_GUIDE | Panduan setup AI & environment |
+| 10 | Glossary | Standarisasi istilah OS & Bootstrap |
+| 11 | Changelog | Catatan evolusi OVHL OS |
 
 ---
 
-### 🕓 6. Metadata
+### 🕓 9. Metadata
 | Field | Value |
 |-------|--------|
-| **Version** | 1.0.1 |
+| **Version** | 2.0.0 |
 | **Author** | Hanif |
 | **Maintainer (AI)** | GPT-5 OVHL System |
-| **Last Updated** | 2025-10-17 |
-| **Definition Note** | OVHL = Omniverse Highland |
+| **Last Updated** | 2025-10-18 |
+| **Scope** | OVHL OS Terminology Expansion |
