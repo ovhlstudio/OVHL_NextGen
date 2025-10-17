@@ -1,0 +1,24 @@
+{
+    "version": "1.0",
+    "project": "OVHL_NextGen",
+    "entry_docs": [
+        "Docs/03_AI_CONTEXT.md",
+        "Docs/10_AI_REPORT_TEMPLATES.md",
+        "Docs/00_README.md"
+    ],
+    "auto_link": {
+        "error_docs": "Docs/05_ERROR_SOLUTIONS.md",
+        "progress_docs": "Docs/07_PROGRESS_TRACKER.md",
+        "architecture_docs": "Docs/04_ARCHITECTURE_DECISIONS.md"
+    },
+    "ai_mode": "Bootloader Context System",
+    "allow_append": true,
+    "allow_modify": false,
+    "metadata_footer_required": true,
+    "linked_env": {
+        "ide": "VSCode",
+        "plugin": "Rojo",
+        "version_control": "GitHub"
+    },
+    "last_updated": "2025-10-18"
+}

@@ -1,4 +1,4 @@
-﻿{
+{
     "editor.formatOnSave": true,
     "[lua]": {
         "editor.defaultFormatter": "JohnnyMorganz.stylua"
@@ -9,7 +9,18 @@
     "robloxLsp.completionMode": "Game",
     "robloxLsp.hoverDocumentation": true,
     "robloxLsp.diagnostics.enable": true,
-    "files.autoSave": "onWindowChange",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 2500,
+    "git.enableSmartCommit": true,
+    "git.postCommitCommand": "sync",
     "gitlens.currentLine.enabled": true,
-    "todo-tree.general.tags": ["TODO", "FIXME", "NOTE", "HACK"]
+    "todo-tree.general.tags": [
+        "TODO",
+        "FIXME",
+        "NOTE",
+        "HACK"
+    ],
+    "task.startupTasks": [
+        "🧩 Start Rojo Server"
+    ]
 }
