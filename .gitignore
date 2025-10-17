@@ -1,0 +1,58 @@
+# ======================================
+# 🚫 OVHL_NextGen .gitignore
+# Keep the repo clean and AI-friendly
+# ======================================
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs & temporary
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Roblox Studio builds
+*.rbxl
+*.rbxlx
+*.rblx
+*.rblxmx
+*.rblxapi
+*.rblxplace
+*.rblxproject
+*.rblxstudio
+*.rblxplugin
+
+# Rojo build outputs
+build/
+out/
+bin/
+
+# Node / Python / package cache
+node_modules/
+__pycache__/
+.env
+.venv/
+
+# VS Code junk
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# System / temp / local sync
+cache/
+temp/
+logs/
+!.gitkeep
+
+# Project-specific local configs
+OVHL_NextGen_Backup/
+OVHL_NextGen_Test/
+*.workspace
+
+# Exclude AI-generated temporary data
+_ai_temp/
+ai_sessions/
