@@ -24,7 +24,7 @@ rojo serve
 
 AI wajib membaca file 03_AI_CONTEXT.md sebelum memulai.
 Semua reasoning baru disimpan di 07_PROGRESS_TRACKER.md.
-Gunakan format di 09_AI_REPORT_TEMPLATES.md untuk semua log.
+Gunakan format di 10_AI_REPORT_TEMPLATES.md untuk semua log.
 Jangan hapus entri lama — update status dengan emoji.
 
 ## 🧠 Tips

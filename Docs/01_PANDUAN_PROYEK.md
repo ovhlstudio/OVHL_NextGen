@@ -36,7 +36,7 @@ Framework ini bertujuan:
 ---
 
 ## 🧠 Filosofi OVHL
-> OVHL adalah singkatan dari **Open Virtual Hub Layer** –  
+> OVHL adalah singkatan dari **Omniverse Highland** –  
 > konsep lapisan kerja cerdas yang menyatukan manusia, AI, dan sistem modular dalam satu arsitektur hidup.
 
 - Ia bisa di-*reboot*, bukan dihapus.  
@@ -61,7 +61,7 @@ Framework ini bertujuan:
 3. Implementasi → masuk `src/`
 4. Testing → jika error, dokumentasi di `05_ERROR_SOLUTIONS.md`
 5. Update → hasilnya dicatat di `07_PROGRESS_TRACKER.md`
-6. Versi baru → dilaporkan di `10_CHANGELOG.md`
+6. Versi baru → dilaporkan di `11_CHANGELOG.md`
 
 ---
 

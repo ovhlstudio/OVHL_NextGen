@@ -139,7 +139,7 @@ Jika ada yang hilang:
 
 AI selalu berusaha menyempurnakan logika dan solusi lama.  
 Setiap solusi baru → dibandingkan dengan versi lama.  
-Jika lebih baik, update dokumentasi dan tandai revisi di `10_CHANGELOG.md`.
+Jika lebih baik, update dokumentasi dan tandai revisi di `11_CHANGELOG.md`.
 
 AI belajar terus-menerus dari sejarahnya sendiri.  
 Tidak ada keputusan final, hanya *versi terbaik saat ini.*

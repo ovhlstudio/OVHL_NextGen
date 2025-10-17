@@ -17,21 +17,30 @@ Framework ini mampu:
 
 ---
 
-## 🧱 Struktur Dokumentasi
+## 📚 Daftar Dokumen
+| No | Dokumen | Deskripsi Singkat |
+|----|----------|-------------------|
+| 01 | [PANDUAN_PROYEK](01_PANDUAN_PROYEK.md) | Panduan kerja, filosofi, dan tujuan besar OVHL. |
+| 02 | [CONTEXT_SETUP](02_CONTEXT_SETUP.md) | Langkah setup VSCode, Rojo, dan GitHub untuk environment dev. |
+| 03 | [AI_CONTEXT](03_AI_CONTEXT.md) | Aturan berpikir, skalabilitas, dan mindset AI dalam proyek. |
+| 04 | [ARCHITECTURE_DECISIONS](04_ARCHITECTURE_DECISIONS.md) | Keputusan teknis & catatan desain sistem. |
+| 05 | [ERROR_SOLUTIONS](05_ERROR_SOLUTIONS.md) | Daftar error & solusi terdokumentasi. |
+| 06 | [TODO_PHASES](06_TODO_PHASES.md) | Fase besar proyek & milestone yang sedang berjalan. |
+| 07 | [PROGRESS_TRACKER](07_PROGRESS_TRACKER.md) | Log progres, reasoning harian, dan catatan pembelajaran. |
+| 08 | [IDEAS_BACKLOG](08_IDEAS_BACKLOG.md) | Ide & inovasi masa depan. |
+| 09 | [GLOSSARY](09_GLOSSARY.md) | Daftar istilah, singkatan, dan terminologi OVHL. |
+| 10 | [AI_REPORT_TEMPLATES](10_AI_REPORT_TEMPLATES.md) | Template laporan reasoning AI lengkap dengan footer metadata. |
+| 11 | [CHANGELOG](11_CHANGELOG.md) | Riwayat versi & catatan milestone proyek. |
+| — | [AI_SETUP_GUIDE](AI_SETUP_GUIDE.md) | Panduan untuk setup AI baru dari nol. |
 
-| No | File | Fungsi |
-|----|------|--------|
-| **00** | [README.md](00_README.md) | Gerbang utama dokumentasi & navigasi lengkap. |
-| **01** | [PANDUAN_PROYEK.md](01_PANDUAN_PROYEK.md) | Buku induk proyek: filosofi, tujuan, dan prinsip kerja. |
-| **02** | [CONTEXT_SETUP.md](02_CONTEXT_SETUP.md) | Panduan agar AI memahami konteks & workflow sistem. |
-| **03** | [AI_CONTEXT.md](03_AI_CONTEXT.md) | Otak AI – berisi aturan, mindset, dan protokol kerja. |
-| **04** | [ARCHITECTURE_DECISIONS.md](04_ARCHITECTURE_DECISIONS.md) | Catatan keputusan arsitektur dan struktur modular. |
-| **05** | [ERROR_SOLUTIONS.md](05_ERROR_SOLUTIONS.md) | Log kesalahan & solusi evolutif dari setiap iterasi. |
-| **06** | [TODO_PHASES.md](06_TODO_PHASES.md) | Rencana pengembangan dan pembagian fase versi. |
-| **07** | [PROGRESS_TRACKER.md](07_PROGRESS_TRACKER.md) | Log progres, milestone, dan status versi aktif. |
-| **08** | [IDEAS_BACKLOG.md](08_IDEAS_BACKLOG.md) | Ide, konsep, dan riset untuk pengembangan masa depan. |
-| **09** | [GLOSSARY.md](09_GLOSSARY.md) | Kamus istilah dan terminologi internal OVHL. |
-| **10** | [CHANGELOG.md](10_CHANGELOG.md) | Catatan versi resmi dan pembaruan publik. |
+
+---
+
+## ⚙️ Konvensi Penulisan
+- Semua laporan AI wajib mengikuti format di [`10_AI_REPORT_TEMPLATES.md`](10_AI_REPORT_TEMPLATES.md)
+- Semua error & solusi terdokumentasi di [`05_ERROR_SOLUTIONS.md`](05_ERROR_SOLUTIONS.md)
+- Semua progres harian masuk ke [`07_PROGRESS_TRACKER.md`](07_PROGRESS_TRACKER.md)
+- Setiap keputusan arsitektur baru harus dicatat di [`04_ARCHITECTURE_DECISIONS.md`](04_ARCHITECTURE_DECISIONS.md)
 
 ---
 
