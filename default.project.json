@@ -1,16 +1,21 @@
-﻿{
+{
     "name": "OVHL_NextGen",
+    "servePort": 34872,
     "tree": {
-        "": "DataModel",
+        "$className": "DataModel",
         "ReplicatedStorage": {
-            "": "src/shared"
+            "$className": "ReplicatedStorage",
+            "$path": "src/shared"
         },
         "ServerScriptService": {
-            "": "src/server"
+            "$className": "ServerScriptService",
+            "$path": "src/server"
         },
         "StarterPlayer": {
+            "$className": "StarterPlayer",
             "StarterPlayerScripts": {
-                "": "src/client"
+                "$className": "StarterPlayerScripts",
+                "$path": "src/client"
             }
         }
     }
