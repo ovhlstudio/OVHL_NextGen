@@ -22,3 +22,18 @@ Melacak semua pembaruan penting pada framework.
 - Update semua dokumentasi inti dengan OS vision
 
 --
+
+# Log Development OVHL
+
+## Phase 2.1 - Core Structure Setup
+**Tanggal:** 18 Oktober 2025  
+**Developer:** Hanif  
+**Status:** ✅ SELESAI
+
+### Yang dikerjain:
+- Sistem komunikasi OVHL_Shared (client-server)
+- Struktur folder OVHL_NextGen, Modules, Shared  
+- Bootloader dengan notifikasi "BOOTLOADER READY"
+- Kernel dasar pengontrol OS
+
+### Next: Phase 2.2 - UI Framework
