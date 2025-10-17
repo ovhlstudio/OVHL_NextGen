@@ -92,3 +92,18 @@ Lihat folder [`Docs/visual/`](visual/) untuk:
 > “Framework ini bukan sekadar kumpulan kode,  
 > tapi cara berpikir yang bisa hidup, mati, dan bangkit lagi — bersama AI.”  
 > — *Hanif, OVHL_NextGen*
+
+## 🧩 Visual Overview
+Lihat diagram alur sistem di bawah ini:
+
+![Workflow Diagram](visual/workflow_diagram.png)
+
+Diagram ini menjelaskan hubungan kerja antara:
+- 👤 Human Developer  
+- 🤖 AI Assistant  
+- 📘 Docs (Context, Error, Progress)  
+- 💾 Source Code  
+- ☁️ GitHub  
+- 🎮 Roblox Studio  
+
+Semua saling terhubung dalam siklus belajar & iterasi tanpa batas.
