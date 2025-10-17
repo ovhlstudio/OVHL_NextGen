@@ -10,7 +10,7 @@
     "robloxLsp.hoverDocumentation": true,
     "robloxLsp.diagnostics.enable": true,
     "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 2500,
+    "files.autoSaveDelay": 4000,
     "git.enableSmartCommit": true,
     "git.postCommitCommand": "sync",
     "gitlens.currentLine.enabled": true,
@@ -22,5 +22,13 @@
     ],
     "task.startupTasks": [
         "🧩 Start Rojo Server"
+    ],
+    // 🚀 Auto Commit Watcher for Dynamic Docs
+    "runOnSave.commands": [
+        {
+            "match": "Docs/(04_ARCHITECTURE_DECISIONS|05_ERROR_SOLUTIONS|07_PROGRESS_TRACKER|08_IDEAS_BACKLOG|10_CHANGELOG)\\.md$",
+            "command": "workbench.action.tasks.runTask",
+            "args": "📘 AI Documentation Commit"
+        }
     ]
 }
