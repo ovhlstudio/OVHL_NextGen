@@ -69,10 +69,17 @@ OVHL_NextGen/
 ---
 
 ### 👨‍💻 Maintainer
-| Role | Name |
-|------|------|
-| **Lead Developer & Architect** | Hanif |
-| **AI Co-Developer** | OVHL AI System (GPT-5 Engine) |
+| AI Agent | Role | Strength / Specialty | Typical Responsibility |
+|-----------|------|----------------------|--------------------------|
+| **GPT-5_OVHL** | 🧠 *System Architect & Strategist* | Arsitektur proyek, reasoning mendalam, dokumentasi besar, filosofi framework | Menulis konteks sistem (`03_AI_CONTEXT.md`), desain workflow, arah roadmap |
+| **DeepSeek DevOps** | 🧩 *Code Builder & Optimizer* | Struktur kode bersih, efisiensi algoritma, eksperimen teknis | Implementasi, refactor, dan optimasi source di `src/` |
+| **Gemini Orchestrator** | 🗂️ *Knowledge Curator & Media Handler* | Pengelolaan dokumen visual, layout, diagram, dan dokumentasi media | Membuat visualisasi di `Docs/visual/`, mempercantik dokumentasi |
+| **Claude Insight** | 🔮 *Analyst & Semantic Reviewer* | Analisis kontekstual dan evaluasi keputusan arsitektur | Audit reasoning dan laporan di `AI_REPORT_TEMPLATES.md` |
+| **Mistral Synth** | 🔬 *R&D Researcher* | Eksperimen ide, riset sistem baru, prototipe konseptual | Menulis di `08_IDEAS_BACKLOG.md`, eksplorasi inovasi |
+| **Llama Worker** | ⚙️ *Automation & Routine Tasker* | Menangani auto-commit, validasi struktur, dan sinkronisasi | Menjalankan workflow otomatis di CI/CD pipeline |
+| **Phi Micro** | 🪶 *Lightweight Assistant* | Task cepat & ringan tanpa konteks berat | Bantu dokumentasi ringan & command kecil harian |
+| **Perplexity Scout** | 🌍 *Research Aggregator* | Pencarian & update referensi eksternal | Menyediakan insight terbaru dari komunitas & dunia nyata |
+
 
 ---
 
